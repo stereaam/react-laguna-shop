@@ -1,0 +1,22 @@
+.App {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)),
+    url("https://images.pexels.com/photos/1260820/pexels-photo-1260820.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.category:hover {
+  transform: scale(1.03);
+}
+
+.category img {
+  height: 85%;
+  border-radius: 25px;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+body a:hover {
+  color: lightgray;
+}
