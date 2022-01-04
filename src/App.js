@@ -1,12 +1,15 @@
-import react from 'react';
+import React from 'react';
 import './App.css';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import About from './pages/About';
 import Page404 from './pages/Page404';
-import {Routes, Route } from "react-router-dom";
+import Category from './pages/Category';
+import {Route, Switch} from 'react-router-dom';
 
-class App extends react.Component{
+
+
+class App extends React.Component{
   constructor(){
     super()
     this.state = {}
@@ -15,12 +18,13 @@ class App extends react.Component{
   render(){
     return(
       <div className="App">
-        <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="*" element={<Page404 />} />
-        </Routes>
+        <Switch>
+          <Route path="/login" component={Login}  />
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/category/:categoryName" component={Category} />
+          <Route path="*" component={Page404} />
+        </Switch>
       </div>
     )
   }
