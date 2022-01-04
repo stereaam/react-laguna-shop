@@ -1,0 +1,225 @@
+{
+    "shirts": {
+        "items": [
+            {
+                "id": 1,
+                "name": "Hawaiian Shirt - Stripes print",
+                "price": 28,
+                "currency": "$",
+                "image": "https://i.imgur.com/a263HaE.png",
+                "size": "M",
+                "colour": "White",
+                "material": "Cotton",
+                "brand": "Laguna",
+                "description": "Geometric stripes and palm trees shirt for a fresh look"
+            },
+            {
+                "id": 2,
+                "name": "Hawaiian Shirt - Palm Trees print",
+                "price": 45,
+                "currency": "$",
+                "image": "https://i.imgur.com/dIC9YME.png",
+                "size": "M",
+                "colour": "Green",
+                "material": "Cotton",
+                "brand": "Laguna",
+                "description": "Feel the breeze with this 100% cotton shirt"
+            },
+            {
+                "id": 3,
+                "name": "Hawaiian Shirt - Girl print",
+                "price": 35,
+                "currency": "$",
+                "image": "https://i.imgur.com/FK5StMe.png",
+                "size": "M",
+                "colour": "Red",
+                "material": "Cotton",
+                "brand": "Laguna",
+                "description": "High-quality shirt with unique hawaiian girl print"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1520006403909-838d6b92c22e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "name": "Shirts",
+        "description": "Hawaiian beach shirts"
+    },
+    "surfboards": {
+        "items": [
+            {
+                "id": 4,
+                "name": "Lost Surfboard",
+                "price": 95,
+                "currency": "$",
+                "image": "https://i.imgur.com/82sThvi.png",
+                "size": "6",
+                "colour": "Red",
+                "material": "Polyurethane",
+                "brand": "Lost",
+                "description": "Low-concave polyurethane Lost Surfboard"
+            },
+            {
+                "id": 5,
+                "name": "Torq Surfboard",
+                "price": 105,
+                "currency": "$",
+                "image": "https://i.imgur.com/4KJTsu9.png",
+                "size": "6",
+                "colour": "Rainbow",
+                "material": "Polyurethane",
+                "brand": "Torq",
+                "description": "High-concave polyurethane Torq Surfboard"
+            },
+            {
+                "id": 6,
+                "name": "Sharp Eye Surfboard",
+                "price": 165,
+                "currency": "$",
+                "image": "https://i.imgur.com/Udovw9R.png",
+                "size": "5.7",
+                "colour": "Red",
+                "material": "Polyurethane",
+                "brand": "Sharp Eye",
+                "description": "Universal shape Sharp Eye Surfboard"
+            },
+            {
+                "id": 7,
+                "name": "Cannibal Surfboard",
+                "price": 160,
+                "currency": "$",
+                "image": "https://i.imgur.com/mPL0Owb.png",
+                "size": "6.1",
+                "colour": "White",
+                "material": "Polystyrene",
+                "brand": "Cannibal",
+                "description": "Polystyrene foam light formula Cannibal Surfboard"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1621433213916-fde39d28e016?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "name": "Surfboards",
+        "description": "Surfboards - all sizes and shapes"
+    },
+    "flipflops": {
+        "items": [
+            {
+                "id": 8,
+                "name": "Flip-flops Lite star",
+                "price": 5,
+                "currency": "$",
+                "image": "https://i.imgur.com/u8jk0D7.png",
+                "size": "42",
+                "colour": "Darkblue",
+                "material": "Recycled plastic",
+                "brand": "Lite",
+                "description": "Beach Lite flip-flops with star print"
+            },
+            {
+                "id": 9,
+                "name": "Flip-flops Havaianas",
+                "price": 7,
+                "currency": "$",
+                "image": "https://i.imgur.com/cg0XWPZ.png",
+                "size": "43",
+                "colour": "Red",
+                "material": "Recycled plastic",
+                "brand": "Havaianas",
+                "description": "Red flip-flops 80% recycled plastic"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1616754383532-dfa5c2d26d5f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=921&q=80",
+        "name": "Flip-flops",
+        "description": "Flip-flops made from recycled sea plastics"
+    },
+    "accesories": {
+        "items": [
+            {
+                "id": 15,
+                "name": "Houston Astros Bracelet",
+                "price": 5,
+                "currency": "$",
+                "image": "https://i.imgur.com/LCBjXAX.png",
+                "size": "Universal",
+                "colour": "Multicoloured",
+                "material": "Wood",
+                "brand": "Houstoon Astros",
+                "description": "Beautiful handmade wood bracelet"
+            },
+            {
+                "id": 16,
+                "name": "Temple Mount Stone Necklace",
+                "price": 10,
+                "currency": "$",
+                "image": "https://i.imgur.com/5ftjTau.png",
+                "size": "Universal",
+                "colour": "Brown-Blue",
+                "material": "Silver",
+                "brand": "Temple Mount Stone",
+                "description": "Unisex silver necklace"
+            }
+        ],
+        "image": "https://images.pexels.com/photos/906056/pexels-photo-906056.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "name": "Accesories",
+        "description": "Bracelets, necklaces, rings and more!"
+    },
+    "shorts": {
+        "items": [
+            {
+                "id": 10,
+                "name": "Gradient Shorts",
+                "price": 15,
+                "currency": "$",
+                "image": "https://i.imgur.com/PgKabSx.png",
+                "size": "M",
+                "colour": "Red-Black",
+                "material": "Polyester",
+                "brand": "Blackrun",
+                "description": "Blackrun gradient shorts red-black"
+            },
+            {
+                "id": 11,
+                "name": "Stripped Shorts",
+                "price": 12,
+                "currency": "$",
+                "image": "https://i.imgur.com/ZmdL5Z1.png",
+                "size": "L",
+                "colour": "Black-White",
+                "material": "Polyester",
+                "brand": "Blackrun",
+                "description": "Blackrun stripped shorts black-white"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1532187689663-7a9b1c33ab45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "name": "Shorts",
+        "description": "Confortable shorts for swimming"
+    },
+    "umbrellas": {
+        "items": [
+            {
+                "id": 12,
+                "name": "Beach umbrella - Blue & Yellow",
+                "price": 30,
+                "currency": "$",
+                "image": "https://i.imgur.com/gKTXm27.png",
+                "size": "-",
+                "colour": "Blue-Yellow",
+                "material": "Plastic",
+                "brand": "Beachbub",
+                "description": "Beach umbrella with colored stripes"
+            },
+            {
+                "id": 13,
+                "name": "Beach umbrella - Blue & Orange",
+                "price": 25,
+                "currency": "$",
+                "image": "https://i.imgur.com/fMrVYIx.png",
+                "size": "-",
+                "colour": "Orange-Blue",
+                "material": "Plastic",
+                "brand": "Beachbub",
+                "description": "Beach umbrella with colored stripes"
+            }
+        ],
+        "image": "https://images.unsplash.com/photo-1515948482931-76fc11d130ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+        "name": "Umbrellas",
+        "description": "Resistent umbrellas for sun protection"
+    }
+    
+}
