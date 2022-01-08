@@ -1,12 +1,12 @@
 .header {
-  padding: 25px 0px;
+  padding: 20px 0px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.473);
   background-color: rgba(255, 255, 255, 0.1);
+  caret-color: transparent;
 }
 .logo {
   width: 170px;
   height: auto;
-  caret-color: transparent;
 }
 .logo:hover {
   transform: scale(1.03);
@@ -14,4 +14,8 @@
 .container-min-max-width {
   min-width: 320px;
   max-width: 1350px;
+}
+
+.number-of-products {
+  font-size: 23px;
 }
