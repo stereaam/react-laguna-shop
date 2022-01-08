@@ -1,0 +1,21 @@
+img {
+  height: 15vh;
+}
+
+.product-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  caret-color: transparent;
+}
+.close-svg {
+  width: 25px;
+  height: 25px;
+}
+.close-svg:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.cart-price {
+  width: 46%;
+}
