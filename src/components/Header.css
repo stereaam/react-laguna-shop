@@ -9,7 +9,8 @@
   height: auto;
 }
 .logo:hover {
-  transform: scale(1.03);
+  transform: scale(1.02);
+  transition-duration: 0.2s;
 }
 .container-min-max-width {
   min-width: 320px;
@@ -18,4 +19,12 @@
 
 .number-of-products {
   font-size: 23px;
+}
+.logout-text {
+  color: white;
+  margin: 0px;
+}
+.logout-text:hover {
+  color: lightgray;
+  cursor: pointer;
 }
