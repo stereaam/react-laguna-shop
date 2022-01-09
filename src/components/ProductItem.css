@@ -1,0 +1,9 @@
+.category-image {
+  height: 250px;
+}
+
+@media screen and (min-width: 800px) {
+  .category-image {
+    height: 300px;
+  }
+}

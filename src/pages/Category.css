@@ -1,0 +1,10 @@
+.category-name {
+  font-size: 50px;
+  color: white;
+  margin: 25px 0;
+  margin-bottom: 50px;
+  text-shadow: 2px 1px black;
+}
+.category-page{
+  caret-color: transparent;
+}
