@@ -1,0 +1,35 @@
+.StripeElement {
+  padding: 10px 9px;
+  color: #32325d;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+.card-element {
+  background: linear-gradient(
+    140deg,
+    rgba(30, 19, 47, 1) 31%,
+    rgba(0, 84, 73, 1) 76%
+  );
+  border-radius: 15px;
+  box-shadow: 0 0 5px 0 #f4f5f7d2;
+}
+form {
+  min-width: 250px;
+  max-width: 380px;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
