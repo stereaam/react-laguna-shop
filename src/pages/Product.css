@@ -1,0 +1,28 @@
+.product-page img {
+  height: 360px;
+  width: auto;
+}
+
+.product-page {
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 400px) {
+  .product-page img {
+    height: 320px;
+  }
+}
+
+.product-info {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.product-name {
+  text-shadow: 1px 1px black;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
