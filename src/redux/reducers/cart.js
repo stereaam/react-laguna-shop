@@ -2,7 +2,6 @@ const initialState = {
     products: []
 }
 
-
 function cartReducer (state = initialState ,action){
     switch(action.type){
         case 'ADD_TO_CART':
@@ -36,13 +35,10 @@ function cartReducer (state = initialState ,action){
                 });
             }
             
-
         case 'REMOVE_FROM_CART':
             const filteredProducts = state.products.filter( product => {
                     return product.id !== action.payload.id
             })
-            console.log(filteredProducts)
-
             return Object.assign({},state, {
                 products: filteredProducts
             })
