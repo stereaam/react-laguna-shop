@@ -1,5 +1,6 @@
-import { signInWithGoogle } from "../../apis/firebase"
+import { signInWithGoogle, signInWithFacebook } from "../../apis/firebase"
 import { signOutAction} from "../../apis/firebase"
+
 export function startLoading(){
     return {
         type: 'START_LOADING'
@@ -20,7 +21,7 @@ export function updateUserError(payload){
     }
 }
 
-export function loginUser (){
+export function loginUserWithGoogle (){
     return (dispatch) => {
         dispatch(startLoading())
         signInWithGoogle().then( (userData) => {
@@ -30,6 +31,18 @@ export function loginUser (){
         })
     }
 }
+
+export function loginUserWithFacebook (){
+        return (dispatch) => {
+        dispatch(startLoading())
+        signInWithFacebook().then( (userData) => {
+            dispatch(updateUserData(userData.user.displayName))
+        }).catch( (error) => {
+            dispatch(updateUserError(error))
+        })
+    }
+}
+
 export function signOutUser(){
     return (dispatch) => {
         dispatch(startLoading())
