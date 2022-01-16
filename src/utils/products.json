@@ -3,7 +3,7 @@
         "items": [
             {
                 "id": 1,
-                "name": "Hawaiian Shirt - Stripes print",
+                "name": "Hawaiian Shirt - Stripes",
                 "price": 28,
                 "currency": "$",
                 "image": "https://i.imgur.com/a263HaE.png",
@@ -15,8 +15,8 @@
             },
             {
                 "id": 2,
-                "name": "Hawaiian Shirt - Palm Trees print",
-                "price": 45,
+                "name": "Hawaiian Shirt - Palm Trees",
+                "price": 55,
                 "currency": "$",
                 "image": "https://i.imgur.com/dIC9YME.png",
                 "size": "M",
@@ -27,7 +27,7 @@
             },
             {
                 "id": 3,
-                "name": "Hawaiian Shirt - Girl print",
+                "name": "Hawaiian Shirt - Girl",
                 "price": 35,
                 "currency": "$",
                 "image": "https://i.imgur.com/FK5StMe.png",
@@ -70,18 +70,6 @@
             },
             {
                 "id": 6,
-                "name": "Sharp Eye Surfboard",
-                "price": 165,
-                "currency": "$",
-                "image": "https://i.imgur.com/Udovw9R.png",
-                "size": "5.7",
-                "colour": "Red",
-                "material": "Polyurethane",
-                "brand": "Sharp Eye",
-                "description": "Universal shape Sharp Eye Surfboard"
-            },
-            {
-                "id": 7,
                 "name": "Cannibal Surfboard",
                 "price": 160,
                 "currency": "$",
@@ -100,9 +88,9 @@
     "flipflops": {
         "items": [
             {
-                "id": 8,
-                "name": "Flip-flops Lite star",
-                "price": 5,
+                "id": 7,
+                "name": "Flip-flops Lite",
+                "price": 15,
                 "currency": "$",
                 "image": "https://i.imgur.com/u8jk0D7.png",
                 "size": "42",
@@ -112,9 +100,9 @@
                 "description": "Beach Lite flip-flops with star print"
             },
             {
-                "id": 9,
+                "id": 8,
                 "name": "Flip-flops Havaianas",
-                "price": 7,
+                "price": 35,
                 "currency": "$",
                 "image": "https://i.imgur.com/cg0XWPZ.png",
                 "size": "43",
@@ -131,7 +119,7 @@
     "accesories": {
         "items": [
             {
-                "id": 15,
+                "id": 9,
                 "name": "Houston Astros Bracelet",
                 "price": 5,
                 "currency": "$",
@@ -143,9 +131,9 @@
                 "description": "Beautiful handmade wood bracelet"
             },
             {
-                "id": 16,
+                "id": 10,
                 "name": "Temple Mount Stone Necklace",
-                "price": 10,
+                "price": 35,
                 "currency": "$",
                 "image": "https://i.imgur.com/5ftjTau.png",
                 "size": "Universal",
@@ -162,9 +150,9 @@
     "shorts": {
         "items": [
             {
-                "id": 10,
+                "id": 11,
                 "name": "Gradient Shorts",
-                "price": 15,
+                "price": 29,
                 "currency": "$",
                 "image": "https://i.imgur.com/PgKabSx.png",
                 "size": "M",
@@ -174,9 +162,9 @@
                 "description": "Blackrun gradient shorts red-black"
             },
             {
-                "id": 11,
+                "id": 12,
                 "name": "Stripped Shorts",
-                "price": 12,
+                "price": 55,
                 "currency": "$",
                 "image": "https://i.imgur.com/ZmdL5Z1.png",
                 "size": "L",
@@ -193,7 +181,7 @@
     "umbrellas": {
         "items": [
             {
-                "id": 12,
+                "id": 13,
                 "name": "Beach umbrella - Blue & Yellow",
                 "price": 30,
                 "currency": "$",
@@ -205,7 +193,7 @@
                 "description": "Beach umbrella with colored stripes"
             },
             {
-                "id": 13,
+                "id": 14,
                 "name": "Beach umbrella - Blue & Orange",
                 "price": 25,
                 "currency": "$",
