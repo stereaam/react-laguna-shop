@@ -1,10 +1,12 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {ReactComponent as Google} from '../assets/icons/google.svg'
+import {ReactComponent as Facebook} from '../assets/icons/facebook.svg'
 import {ReactComponent as HomeIcon} from '../assets/icons/home.svg'
 import './Login.css'
 import {connect} from 'react-redux'
-import {loginUser} from '../redux/actions/user'
+import {loginUserWithGoogle, loginUserWithFacebook} from '../redux/actions/user'
+
 
 class Login extends React.Component {
 
@@ -15,7 +17,7 @@ class Login extends React.Component {
     }
     
     render(){
-        const {signInWithGoogle} = this.props
+        const {signInWithGoogle, signInWithFacebook} = this.props
         return (
             <div className="login-page">
                 <Link to='/'>
@@ -26,10 +28,14 @@ class Login extends React.Component {
                 </Link>
                 <h1>Login</h1>
                 <p><em>Please choose your provider below:</em></p>
-                <button className="hover-zoom btn btn-outline-light d-flex align-items-center" onClick={signInWithGoogle}>
-                    <Google/>
+                <button className="hover-zoom btn btn-outline-light d-flex align-items-center m-1" onClick={signInWithGoogle}>
+                    <Google />
                     <span className="text-nowrap m-3">Login with Google</span>
-                </button>   
+                </button> 
+                <button className="hover-zoom btn btn-outline-light d-flex align-items-center m-1" onClick={signInWithFacebook}>
+                    <Facebook />
+                    <span className="text-nowrap mx-2 my-3">Login with Facebook</span>
+                </button> 
             </div>
         )
     }
@@ -43,7 +49,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) =>{
     return {
-        signInWithGoogle: () => dispatch(loginUser())
+        signInWithGoogle: () => dispatch(loginUserWithGoogle()),
+        signInWithFacebook: () => dispatch(loginUserWithFacebook())
     }
 }
 
