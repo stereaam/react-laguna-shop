@@ -4,7 +4,10 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-
+  caret-color: transparent;
+}
+.category div{
+  text-align: center;
 }
 .category:hover {
   transform: scale(1.01);
