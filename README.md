@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+## Demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Website link: https://react-laguna-shop.herokuapp.com/ 
 
-## Available Scripts
+_Heroku free plan server goes to sleep after 30 minutes of inactivity. It is possible that website loading will take longer to load the first time you access it!_
 
-In the project directory, you can run:
+## Functionalities
 
-### `npm start`
+* Click on home category - will display coresponding category products
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Click on "Add to cart" button - product will be added to cart. If the product is already in cart, quantity will be updated in the cart page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Click on heart icon - product will be added to favorites page
 
-### `npm test`
+* Click on product - go to individual product page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Click on "Login" - go to authentication page, where you can login with Google or Facebook account
 
-### `npm run build`
+* Click on cart icon - will display cart products and information about each product (quantity, price, etc.). Click on "X" icon will eliminate a product from cart
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Click on heart icon (from header) - go to favorites page. Click on "X" icon will eliminate a product from favorites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Click on "Checkout" button from cart page - go to checkout page where you can enter Stripe card details
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## To run the project locally
 
-### `npm run eject`
+1. `git clone https://github.com/stereaam/react-laguna-shop.git`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. `cd react-laguna-shop`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. `npm install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. `npm start`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
