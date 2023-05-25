@@ -11,7 +11,9 @@
                 "colour": "White",
                 "material": "Cotton",
                 "brand": "Laguna",
-                "description": "Geometric stripes and palm trees shirt for a fresh look"
+                "description": "Geometric stripes and palm trees shirt for a fresh look",
+                "numbersSold": 13,
+                "likes":233
             },
             {
                 "id": 2,
@@ -23,7 +25,9 @@
                 "colour": "Green",
                 "material": "Cotton",
                 "brand": "Laguna",
-                "description": "Feel the breeze with this 100% cotton shirt"
+                "description": "Feel the breeze with this 100% cotton shirt",
+                "numbersSold": 17,
+                "likes":23
             },
             {
                 "id": 3,
@@ -35,7 +39,9 @@
                 "colour": "Red",
                 "material": "Cotton",
                 "brand": "Laguna",
-                "description": "High-quality shirt with unique hawaiian girl print"
+                "description": "High-quality shirt with unique hawaiian girl print",
+                "numbersSold": 2,
+                "likes":334
             }
         ],
         "image": "https://i.imgur.com/xEAtMMc.jpg",
@@ -54,7 +60,9 @@
                 "colour": "Red",
                 "material": "Polyurethane",
                 "brand": "Lost",
-                "description": "Low-concave polyurethane Lost Surfboard"
+                "description": "Low-concave polyurethane Lost Surfboard",
+                "numbersSold": 122,
+                "likes":423
             },
             {
                 "id": 5,
@@ -66,7 +74,9 @@
                 "colour": "Rainbow",
                 "material": "Polyurethane",
                 "brand": "Torq",
-                "description": "High-concave polyurethane Torq Surfboard"
+                "description": "High-concave polyurethane Torq Surfboard",
+                "numbersSold": 23,
+                "likes":55
             },
             {
                 "id": 6,
@@ -78,7 +88,9 @@
                 "colour": "White",
                 "material": "Polystyrene",
                 "brand": "Cannibal",
-                "description": "Polystyrene foam light formula Cannibal Surfboard"
+                "description": "Polystyrene foam light formula Cannibal Surfboard",
+                "numbersSold": 63,
+                "likes":765
             }
         ],
         "image": "https://i.imgur.com/ryNHkCi.jpg",
@@ -97,7 +109,9 @@
                 "colour": "Darkblue",
                 "material": "Recycled plastic",
                 "brand": "Lite",
-                "description": "Beach Lite flip-flops with star print"
+                "description": "Beach Lite flip-flops with star print",
+                "numbersSold": 8,
+                "likes":21
             },
             {
                 "id": 8,
@@ -109,7 +123,9 @@
                 "colour": "Red",
                 "material": "Recycled plastic",
                 "brand": "Havaianas",
-                "description": "Red flip-flops 80% recycled plastic"
+                "description": "Red flip-flops 80% recycled plastic",
+                "numbersSold": 12,
+                "likes":65
             }
         ],
         "image": "https://i.imgur.com/N3orH2z.jpg",
@@ -128,7 +144,9 @@
                 "colour": "Multicoloured",
                 "material": "Wood",
                 "brand": "Houstoon Astros",
-                "description": "Beautiful handmade wood bracelet"
+                "description": "Beautiful handmade wood bracelet",
+                "numbersSold": 244,
+                "likes":342
             },
             {
                 "id": 10,
@@ -140,7 +158,9 @@
                 "colour": "Brown-Blue",
                 "material": "Silver",
                 "brand": "Temple Mount Stone",
-                "description": "Unisex silver necklace"
+                "description": "Unisex silver necklace",
+                "numbersSold": 566,
+                "likes":897
             }
         ],
         "image": "https://i.imgur.com/3NYFoyg.jpg",
@@ -159,7 +179,9 @@
                 "colour": "Red-Black",
                 "material": "Polyester",
                 "brand": "Blackrun",
-                "description": "Blackrun gradient shorts red-black"
+                "description": "Blackrun gradient shorts red-black",
+                "numbersSold": 5,
+                "likes":11
             },
             {
                 "id": 12,
@@ -171,7 +193,9 @@
                 "colour": "Black-White",
                 "material": "Polyester",
                 "brand": "Blackrun",
-                "description": "Blackrun stripped shorts black-white"
+                "description": "Blackrun stripped shorts black-white",
+                "numbersSold": 12,
+                "likes":88
             }
         ],
         "image": "https://i.imgur.com/oWtYi0E.jpg",
@@ -190,7 +214,9 @@
                 "colour": "Blue-Yellow",
                 "material": "Plastic",
                 "brand": "Beachbub",
-                "description": "Beach umbrella with colored stripes"
+                "description": "Beach umbrella with colored stripes",
+                "numbersSold": 11,
+                "likes":95
             },
             {
                 "id": 14,
@@ -202,7 +228,9 @@
                 "colour": "Orange-Blue",
                 "material": "Plastic",
                 "brand": "Beachbub",
-                "description": "Beach umbrella with colored stripes"
+                "description": "Beach umbrella with colored stripes",
+                "numbersSold": 1,
+                "likes":12
             }
         ],
         "image": "https://i.imgur.com/3MY1zOD.jpg",

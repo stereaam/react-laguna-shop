@@ -10,6 +10,7 @@ import Product from './pages/Product'
 import Favorites from './pages/Favorites'
 import TermsAndConditions from './pages/TermsAndConditions'
 import Stripe from './pages/Stripe'
+import Admin from './pages/Admin'
 import {Route, Switch} from 'react-router-dom'
 
 
@@ -33,6 +34,7 @@ class App extends React.Component{
           <Route path="/favorites" component={Favorites} />
           <Route path="/terms-and-conditions" component={TermsAndConditions} />
           <Route path="/stripe" component={Stripe} />
+          <Route path="/admin" component={Admin} />
           <Route path="*" component={Page404} />
         </Switch>
       </div>
